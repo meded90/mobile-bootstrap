@@ -1,0 +1,58 @@
+.submit {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  display: inline-block;
+  cursor: pointer;
+  background-size: 100%;
+}
+.radio .wrap-img {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.radio .wrap-img img {
+  border: 5px solid transparent;
+}
+.radio :checked + .wrap-img img {
+  border: 5px solid #fffc03;
+}
+.wrap-input {
+  max-width: 310px;
+  width: 100%;
+  min-height: 40px;
+  display: inline-block;
+  margin-bottom: 15px;
+  position: relative;
+  border-radius: 4px;
+}
+.wrap-input .pading-input {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.wrap-input textarea,
+.wrap-input input {
+  border: 0;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-left: -10px;
+  padding-right: 5px;
+  min-height: 40px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.wrap-input textarea:focus,
+.wrap-input input:focus {
+  outline: none;
+  box-shadow: inset 0 1px 1px rgba(172,235,85,0.075), 0 0 8px rgba(172,235,85,0.8);
+}
+.wrap-textarea {
+  width: 100%;
+  height: 120px;
+}

@@ -1,0 +1,28 @@
+h1 {
+  color: #fffc03;
+  font-weight: normal;
+}
+h2 {
+  color: #fff;
+  font-weight: normal;
+}
+h2 small {
+  color: #888;
+  font-weight: normal;
+  display: block;
+}
+img {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}

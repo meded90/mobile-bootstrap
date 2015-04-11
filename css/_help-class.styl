@@ -1,0 +1,74 @@
+
+// vido in youtube.com
+.videowrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  position: relative
+  a {
+    cursor: pointer
+    display: block
+    left: 0
+    top: 0
+    position: absolute
+    width: 100%
+    height: 100%
+    text-decoration: none !important
+  }
+  img {
+    left: 0
+    top: 0
+    position: absolute
+    width: 100%
+  }
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+// sear https://tech.yandex.ru/share/
+.social-share {
+  padding-bottom: 50px
+  .b-share_theme_counter .b-share__handle {
+    padding: 5px !important
+    width: auto !important
+  }
+  .b-share__handle a {
+    background-color: transparent
+    display: inline-block;
+    width: 23px;
+    margin-right: 6px;
+    vertical-align: middle;
+    &:hover {
+      opacity: 1;
+    }
+    img {
+      display: block;
+    }
+  }
+}
+
+// simbol ₽
+.rub
+  margin-left: 5px
+  position: relative
+  &:before
+    content: 'Р'
+  &:after
+    content: "–"
+    position: absolute
+    width: 100%
+    top: 50%
+    margin-top: .1em
+    left: -0.1em
+    vertical-align: top
+    line-height: 0em
